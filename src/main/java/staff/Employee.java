@@ -6,10 +6,10 @@ public abstract class Employee {
     String nin;
     int salary;
 
-    public Employee(String name, String nin) {
+    public Employee(String name, String nin, int salary) {
         this.name = name;
         this.nin = nin;
-        this.salary = 100;
+        this.salary = salary;
     }
     public String getName() {
         return name;
@@ -28,7 +28,7 @@ public abstract class Employee {
     }
 
     public double payBonus() {
-        salary += salary*0.01;
+        salary *= 0.01;
         return salary;
     }
 
