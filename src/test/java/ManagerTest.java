@@ -44,4 +44,23 @@ public class ManagerTest {
         manager.payBonus();
         assertEquals(1, manager.getSalary());
     }
+
+    @Test
+    public void cannotLowerSalaryWithRaise(){
+        manager.raiseSalary(-100);
+        assertEquals(100, manager.getSalary());
+    }
+
+    @Test
+    public void cannotChangeNameToNull(){
+        manager.setName(null);
+        assertEquals("Bob", manager.getName());
+    }
+    @Test
+    public void cannotChangeNameToEmptyString(){
+        manager.setName("");
+        assertEquals("Bob", manager.getName());
+    }
+
+
 }

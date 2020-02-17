@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e5dd936-ddd6-467e-9965-a7524973f8a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/DatabaseAdminTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DeveloperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/management/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DirectorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/staff/techStaff/DatabaseAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/techStaff/DatabaseAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/staff/techStaff/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/techStaff/Developer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/staff/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ManagerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,49 +49,52 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="JUnit.DeveloperTest">
-    <configuration name="DatabaseAdminTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DirectorTest.canGetExtraPayBonus">
+    <configuration name="DirectorTest.canGetBudget" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LabEmployee" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DatabaseAdminTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DeveloperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LabEmployee" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DeveloperTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LabEmployee" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ManagerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ManagerTest.canGetPayBonus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LabEmployee" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ManagerTest" />
-      <option name="METHOD_NAME" value="canGetPayBonus" />
+      <option name="MAIN_CLASS_NAME" value="DirectorTest" />
+      <option name="METHOD_NAME" value="canGetBudget" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManagerTest.canRaiseSalary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DirectorTest.canGetExtraPayBonus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LabEmployee" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DirectorTest" />
+      <option name="METHOD_NAME" value="canGetExtraPayBonus" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerTest.cannotChangeNameToEmptyString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LabEmployee" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ManagerTest" />
-      <option name="METHOD_NAME" value="canRaiseSalary" />
+      <option name="METHOD_NAME" value="cannotChangeNameToEmptyString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerTest.cannotChangeNameToNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LabEmployee" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ManagerTest" />
+      <option name="METHOD_NAME" value="cannotChangeNameToNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerTest.cannotLowerSalaryWithRaise" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LabEmployee" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ManagerTest" />
+      <option name="METHOD_NAME" value="cannotLowerSalaryWithRaise" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DeveloperTest" />
-        <item itemvalue="JUnit.DatabaseAdminTest" />
-        <item itemvalue="JUnit.ManagerTest.canGetPayBonus" />
-        <item itemvalue="JUnit.ManagerTest.canRaiseSalary" />
-        <item itemvalue="JUnit.ManagerTest" />
+        <item itemvalue="JUnit.DirectorTest.canGetExtraPayBonus" />
+        <item itemvalue="JUnit.ManagerTest.cannotChangeNameToEmptyString" />
+        <item itemvalue="JUnit.ManagerTest.cannotChangeNameToNull" />
+        <item itemvalue="JUnit.ManagerTest.cannotLowerSalaryWithRaise" />
+        <item itemvalue="JUnit.DirectorTest.canGetBudget" />
       </list>
     </recent_temporary>
   </component>
@@ -128,26 +132,30 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="454" y="270" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1581951943897" />
-    <state x="532" y="183" key="#com.intellij.ide.util.MemberChooser" timestamp="1581950247974">
+    <state x="532" y="183" key="#com.intellij.ide.util.MemberChooser" timestamp="1581953548503">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="532" y="183" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1581950247974" />
-    <state width="1396" height="230" key="GridCell.Tab.0.bottom" timestamp="1581952243704">
+    <state x="532" y="183" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1581953548503" />
+    <state x="507" y="327" width="425" height="278" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1581952921872">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1396" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1581952243704" />
-    <state width="1396" height="230" key="GridCell.Tab.0.center" timestamp="1581952243703">
+    <state x="507" y="327" width="425" height="278" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.877@0.23.1440.877" timestamp="1581952921872" />
+    <state width="1396" height="230" key="GridCell.Tab.0.bottom" timestamp="1581954020041">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1396" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1581952243703" />
-    <state width="1396" height="230" key="GridCell.Tab.0.left" timestamp="1581952243703">
+    <state width="1396" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1581954020041" />
+    <state width="1396" height="230" key="GridCell.Tab.0.center" timestamp="1581954020040">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1396" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1581952243703" />
-    <state width="1396" height="230" key="GridCell.Tab.0.right" timestamp="1581952243704">
+    <state width="1396" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1581954020040" />
+    <state width="1396" height="230" key="GridCell.Tab.0.left" timestamp="1581954020039">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1396" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1581952243704" />
+    <state width="1396" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1581954020039" />
+    <state width="1396" height="230" key="GridCell.Tab.0.right" timestamp="1581954020040">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1396" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1581954020040" />
     <state x="383" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1581951293920">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
